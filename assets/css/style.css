@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Teko&display=swap');
+
 * {
    margin: 0;
    padding: 0;
@@ -10,6 +12,7 @@
    align-items: center;
    justify-content: center;
    width: 100%;
+   height: 80px;
    background: /*#4892F7*/ green;
 }
 
@@ -28,7 +31,7 @@
 }
 
 .logo img {
-   width: 140px;
+   width: 120px;
 }
 
 .nav-list li {
@@ -40,8 +43,9 @@
 
 .nav-list li a {
    text-decoration: none;
+   font-family: teko, sans-serif;
    color: white;
-   font-size: 17px;
+   font-size: 35px;
 }
 
 .nav-list li a:hover {
@@ -71,25 +75,70 @@
 /************************* End of Nav Bar *************************/
 
 /***************************** Home **************************/
+
 .bg_image{
    height: 900px;
+   display: flex;
    width: 100%;
    background: url('../images/castle.jpg') no-repeat center center ;
    opacity: 0.5;
    border: 5px solid red;
 }
 
-.main {
-   position:absolute;
-   top: 50%;
+#main {
+   position: absolute;
+   top: 0;
+   left: 30%;
+   width: 500px;
+   height: auto;
+   background-color: floralwhite;
 }
 
+.intro {
+   font-family: teko, sans-serif;
+   font-weight: 600;
+   font-size: 100px;
+   text-align: center;
+   color: green;
+   text-decoration: underline;
+}
 
+.test1 {
+   position: absolute;
+   display: inline-table;
+   background-color: floralwhite;
+   height: 50px;
+   width: 80px;
+   padding: 20px;
+   bottom:30%;
+   margin: 0 auto;
+}
 
+/*.test2 {
+   position: absolute;
+   display: inline-block;
+   background-color: floralwhite;
+   height: 50px;
+   width: 80px;
+   padding: 20px;
+   bottom:30%;
+   left: 280px;
+}
 
-/************************* Home ***********************/
+.test3 {
+   position: absolute;
+   display: inline-block;
+   background-color: floralwhite;
+   height: 50px;
+   width: 80px;
+   padding: 20px;
+   bottom:30%;
+   left: 480px;
+}*/
+/************************* End of Home ***********************/
+
 #container_2 {
-   height: 900px;
+   height: 100px;
    width: 100%;
    background-color: aqua;
 
