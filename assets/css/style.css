@@ -5,7 +5,7 @@
 }
 
 /************************* Nav Bar *************************/
-.navbar {
+#navbar {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -29,7 +29,6 @@
 
 .logo img {
    width: 140px;
-
 }
 
 .nav-list li {
@@ -71,16 +70,31 @@
 }
 /************************* End of Nav Bar *************************/
 
-/***************************** Container **************************/
-.container {
+/***************************** Home **************************/
+.bg_image{
    height: 900px;
    width: 100%;
-   background: url('../images/castle.jpg') no-repeat center center;
+   background: url('../images/castle.jpg') no-repeat center center ;
    opacity: 0.5;
+   border: 5px solid red;
 }
 
-/************************* End of Container ***********************/
+.main {
+   position:absolute;
+   top: 50%;
+}
 
+
+
+
+/************************* Home ***********************/
+#container_2 {
+   height: 900px;
+   width: 100%;
+   background-color: aqua;
+
+
+}
 
 /*-------- Footer --------------*/
 footer {
