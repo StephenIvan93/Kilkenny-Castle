@@ -7,7 +7,7 @@
 }
 
 /************************* Nav Bar *************************/
-#navbar {
+#index {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -82,19 +82,20 @@
    width: 100%;
    background: url('../images/castle.jpg') no-repeat center center ;
    opacity: 0.5;
-   border: 5px solid red;
+   
 }
 
 #main {
    position: absolute;
    top: 0;
-   left: 30%;
+   left: 35%;
    width: 500px;
    height: auto;
    background-color: floralwhite;
+   border: 2px solid green;
 }
 
-.intro {
+.page_title {
    font-family: teko, sans-serif;
    font-weight: 600;
    font-size: 100px;
@@ -103,51 +104,71 @@
    text-decoration: underline;
 }
 
-.test1 {
-   position: absolute;
-   display: inline-table;
-   background-color: floralwhite;
-   height: 50px;
-   width: 80px;
-   padding: 20px;
-   bottom:30%;
-   margin: 0 auto;
+h1 {
+   font-family: teko, sans-serif;
+   text-align: center;
 }
 
-/*.test2 {
-   position: absolute;
-   display: inline-block;
-   background-color: floralwhite;
-   height: 50px;
-   width: 80px;
-   padding: 20px;
-   bottom:30%;
-   left: 280px;
+p {
+   padding: 10px;
 }
 
-.test3 {
+.left_window {
    position: absolute;
-   display: inline-block;
+   display: inline;
+   font:20px teko, sans-serif;
    background-color: floralwhite;
-   height: 50px;
-   width: 80px;
-   padding: 20px;
-   bottom:30%;
-   left: 480px;
-}*/
+   height: auto;
+   width: 18%;
+   left: 25%;
+   top:25%;
+   padding: 5px;
+   border: 2px solid green;
+}
+.right_window {
+   position: absolute;
+   display: inline;
+   font:20px teko, sans-serif;
+   background-color: floralwhite;
+   height: auto;
+   width: 18%;
+   right: 25%;
+   top:25%;
+   padding: 5px;
+   border: 2px solid green;
+}
 /************************* End of Home ***********************/
-
-#container_2 {
-   height: 100px;
-   width: 100%;
-   background-color: aqua;
-
-
+/************************* Contact section ***********************/
+#contact {
+   background-color: EBFCE8;
+   border: 2px solid blue;
+   padding: 70px;
 }
 
-/*-------- Footer --------------*/
+.form-bg{
+
+   margin: 10px 50px 20px ;
+   background-color: orange;
+}
+/************************* End of Contact section ***********************/
+
+/************************* Gallery ***********************/
+#gallery {
+   clear: both;
+   line-height: 0;
+   column-count: 4;
+   column-gap: 0px;
+}
+
+#gallery img{
+   width: 100%;
+}
+/************************* End of gallery ***********************/
+
+/********************** Footer **********************/
 footer {
    background-color: green;
+   margin: 0, auto;
 }
 .text-footer {
    text-align: center;
