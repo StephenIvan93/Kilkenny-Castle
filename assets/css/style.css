@@ -13,7 +13,7 @@
    justify-content: center;
    width: 100%;
    height: 80px;
-   background: /*#4892F7*/ green;
+   background: green;
 }
 
 .nav-list {
@@ -113,7 +113,7 @@ p {
    padding: 10px;
 }
 
-.left_window {
+.left_window {          /* Information about Early History of Kilkenny castle*/
    position: absolute;
    display: inline;
    font:20px teko, sans-serif;
@@ -125,8 +125,8 @@ p {
    padding: 5px;
    border: 2px solid green;
 }
-.right_window {
-   position: absolute;
+.right_window {               /* Kilkenny Castle today*/
+   position: absolute;  
    display: inline;
    font:20px teko, sans-serif;
    background-color: floralwhite;
@@ -166,31 +166,56 @@ p {
 #contact {
    background-color: EBFCE8;
    height: 600px;
+   position: relative;
 }
 
-.form_area{
+.times_outer {       /* Opening Hours */
+   width: 400px;
+   height: 100%;
+   top: 0%;
+   left:0;
+   position: absolute;
+   background-color: floralwhite;
+   border: 5px solid green;
+}
+
+.times_outer h2 {
+   text-align: center;
+   font: 30px teko, sans-serif;
+   padding-top: 20px;
+}
+
+.opening_hours {
+   padding-left: 20px;
+   font: 25px teko, sans-serif;
+}
+.opening_hours td {
+   padding-top: 15px;
+   padding-left: 50px;
+}
+
+.form_area{             /* Form  */
    display: flex;
    width: 30%;
    height: 100%;
-   margin-left: 0%;
-   background-color: aquamarine;
+   right: 800px;
+   background-color: floralwhite;
+   position: absolute;
 }
-
 .form-bg{
-   display: block;
    background-color: rgb(122, 145, 122);
    width: 70%;
    margin: 30px;
-   padding: 50px;
+   padding: 30px;
+   left: 25px;
    border-radius: 20px;
    text-align: center;
+   position: absolute;
 }
-
 label {
    font:20px teko, sans-serif;
    font-weight: 600
 }
-
 input[type=text] { /* This covers the input sections of the contact form */
 	width: 60%;
 	padding: 12px;
@@ -200,8 +225,7 @@ input[type=text] { /* This covers the input sections of the contact form */
     margin-top: 6px;
     margin-bottom: 10px;
     margin-left: 7%;
-    resize: vertical; /* This specifies how an element is resized; vertical allows the user to resize the height of the element */
-    
+    resize: vertical; /* This specifies how an element is resized; vertical allows the user to resize the height of the element */ 
 }
 /* Submit button */
 input[type=submit] { /* This covers the submit button for the contact form */
@@ -210,7 +234,7 @@ input[type=submit] { /* This covers the submit button for the contact form */
 	font-weight: bold;
 	padding: 5px 10px;
 	border: none;
-	border-radius: 4px;
+	border-radius: 4px;  /* rounds the corners of the submit bottle*/
 	cursor: pointer;
 	display: block;
 	margin-left: 40%;; 
@@ -218,12 +242,23 @@ input[type=submit] { /* This covers the submit button for the contact form */
 }
 /* Hover effect for submit button */
 input[type=submit]:hover {
-	background-color: floralwhite; /* Makes the background turn white when hovered over */
+	background-color: floralwhite;                                                    
 	color: black; /* Makes the font turn black when hovered over */
 	font-weight: bold; /* Makes the font bold when hovered over */
 	transform: scale(1.5); /* Makes the button increase 1.5 times in size */ 
 	transition: transform 1.5s; /* Makes the transform effect last 1.5 seconds from start to finish */
 }
+
+.map-outer {               /* Position of the embedded map*/
+   width: 800px;
+   height: 100%;
+   top: 0%;
+   right: 0;
+   position: absolute;
+   border: 5px solid green
+}
+
+
 /************************* End of Contact section ***********************/
 
 /********************** Footer **********************/
