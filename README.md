@@ -13,9 +13,27 @@
 >- The navigation links are featured on the top of the website. They will guide the user to the required section of the website. When the user hovers over the navigation links the mouse pointer changes and the font color changes to grey. 
 >- The font chosen is Teko and it's also applied to the entire font on the site. I chose this font as, to me it looks like it closely resembled scripts from the past.
 >- The navigation section also includes the Kilkenny Castle Logo which is unresponsive. and a search feature.
->- And finally the webpage title rests on top of the navigation menu. 
-
+>- And finally the webpage title rests on top of the navigation menu in green font on a floralwhite background. 
 >
+>### Container
+ >![Alt text](/assets/images/Container-with-background-image.PNG)
+>- The Container section holds a backgound image of the Kilkenny Castle on a bright sunny day with opacity set to 0.5 so it doesn't distract the users from the content on their arrival.
+> Two boxes are visible with information about the castle and its current use today.
+>
+> ### Gallery
+>![Alt text](/assets/images/Gallery.PNG)
+>- The gallery contains a select few pictures of the castle. 
+>
+>### Contact
+>![Alt text](/assets/images/contact.PNG)
+>- From the contact section, the users can get information on the opening times, the castles location from a google maps screen.
+>- Also on the contact page, the users can fill out a form to get further information.
+>
+>### Footer
+>![Alt text](/assets/images/footer-links.PNG)
+>- From the footer the users can look into getting more information from the social media icons from the footer.
+>- These icons are links to social media sites.
+
  >### Testing
  >- I tested this page in Chrome, Firefox and Edge.
  >- Unfortunatly I couldn't get the website to be fully responsive so at the moment it it's somewhat responsive on an IPhone XR.
@@ -38,7 +56,7 @@
  >## Unfixed Bugs
  > I couldn't fully complete the @media queries so the website isn't fully responsive on all media types.
 
- >## Deployment
+>## Deployment
 >- The site was deployed to GitHub pages. The steps to deploy are as follows:
 >- In the GitHub repository, navigate to the settings tab
 >- In the left navigation panel select Pages
@@ -47,4 +65,11 @@
 >
 > The live link can be found here - [Kilkenny Castle](https://stephenivan93.github.io/Kilkenny-Castle/)
 
- >## Credits
+>## Credits
+>- The navigation menu idea came originated from Bootstrap site - https://getbootstrap.com/docs/5.1/components/navbar/
+>- The Kilkenny Castle logo was located from google images.
+>- Infomation about the castle was located from wikipedia and the main kilkenny castle.
+>- The images were sourced from google images, Facebook and Twitter.
+>- Icons located in the footer, were sourced from Awesome Fonts.
+>- Sites that I relied on for clarity was [W3Schools](https://www.w3schools.com/html/html_css.asp) and [StackOverflow](https://stackoverflow.com/)
+>- Colors used in the Website were gotten from https://htmlcolorcodes.com/ 
