@@ -220,22 +220,21 @@ label {
 input[type=text] { /* This covers the input sections of the contact form */
 	width: 60%;
 	padding: 12px;
-    border: 1px solid #ccc; /* We are setting a solid border and its colors */
+    border: 1px solid #ccc;
     border-radius: 4px; 
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 10px;
     margin-left: 7%;
-    resize: vertical; /* This specifies how an element is resized; vertical allows the user to resize the height of the element */ 
 }
 /* Submit button */
-input[type=submit] { /* This covers the submit button for the contact form */
+input[type=submit] { 
 	background-color: black;
 	color: white;
 	font-weight: bold;
 	padding: 5px 10px;
 	border: none;
-	border-radius: 4px;  /* rounds the corners of the submit bottle*/
+	border-radius: 4px;  
 	cursor: pointer;
 	display: block;
 	margin-left: 40%; 
@@ -244,10 +243,10 @@ input[type=submit] { /* This covers the submit button for the contact form */
 /* Hover effect for submit button */
 input[type=submit]:hover {
 	background-color: floralwhite;                                                    
-	color: black; /* Makes the font turn black when hovered over */
-	font-weight: bold; /* Makes the font bold when hovered over */
-	transform: scale(1.5); /* Makes the button increase 1.5 times in size */ 
-	transition: transform 1.5s; /* Makes the transform effect last 1.5 seconds from start to finish */
+	color: black; 
+	font-weight: bold; 
+	transform: scale(1.5); 
+	transition: transform 1.5s; 
 }
 
 .map-outer {               /* Position of the embedded map*/
